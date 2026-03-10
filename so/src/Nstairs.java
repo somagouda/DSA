@@ -4,13 +4,14 @@ public class Nstairs {
     public static void main(String[] args) {
         int n=5;
 
-        int dp[]=new int[n+1];
+        int[] dp=new int[n+1];
         Arrays.fill(dp,-1);
         System.out.println(st(dp,n));
+        //gdfgshjkldfghj
 
 
     }
-    static int st(int dp[],int n){
+    static int st(int[] dp,int n){
         if(n==1||n==2){
             return n;
         }
